@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Fancy Cats</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+	rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
+	rel="stylesheet">
+
+	<style>
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		background-color: rgb(200, 200, 200);
+		color: black;
+		font-family: 'Roboto', sans-serif;;
+	}
+	.menu{
+		background-color: #f08686;
+		width: 100%;
+		height: 70px;
+		position: fixed;
+		z-index: 99;
+		box-shadow: 0 10px 15px rgb(200, 200, 200);
+	}
+	.alfa{
+		position: relative;	
+		color:white;
+		font-size:30px;
+		top: 20%;	
+		left: 45%;
+		width: 120px;
+		transition: 0.2s ease;
+	}
+	.alfa:hover{
+		cursor: default;
+		color: black;
+	}
+
+	.center{
+		background-color: rgb(230, 230, 230);
+		margin: 0 auto;
+		width: 80%;
+		height: 1000px;
+		box-shadow: 0 0 30px 20px rgb(180,180,180);
+	}
+
+	.all_cats{
+		position: relative;
+		width: 900px;
+		top: 15%;
+		left: 18%;
+	}
+	.all_cats li{
+		display: inline;
+	}
+	.all_cats img:nth-child(1n){	
+		padding: 3px;	
+		background-color: #383a42;
+	}
+	.all_cats img:hover:nth-child(1n){	
+		padding: 10px;
+		background-color: #383a42;
+	}
+	.all_cats img{
+		position: relative;
+		width: 200px;
+		margin: 10px;
+		bottom: 0;
+		transition: 0.5s ease;
+	}
+	.all_cats img:hover{
+		bottom: 10px;
+		box-shadow: 0 10px 0 #7f8394;
+	}
+	.fancy{
+		position: absolute;
+		top: 14%;
+		left: 40%;
+		font-size: 40px;
+		font-family: 'Dancing Script', cursive;
+	}
+	</style>
+</head>
+<body>
+	<div class="menu">
+		<p class="alfa">Le Chats<p>
+	</div>
+	
+	<div class="center">
+	<p class="fancy">The Most <i>Fancy</i> Cats</p>
+
+		<ul class="all_cats">
+			<li><a href="gato_1.png" target="_blank"><img class="gato1" src="gato_1.png"></a></li>
+			<li><a href="gato_2.png" target="_blank"><img class="gato2" src="gato_2.png"></a></li>
+			<li><a href="gato_3.png" target="_blank"><img class="gato3" src="gato_3.png"></a></li>
+		</ul>
+		<ul class="all_cats">
+			<li><a href="gato_4.png" target="_blank"><img class="gato1" src="gato_4.png"></a></li>
+			<li><a href="gato_5.png" target="_blank"><img class="gato2" src="gato_5.png"></a></li>
+			<li><a href="gato_6.png" target="_blank"><img class="gato3" src="gato_6.png"></a></li>
+		</ul>
+		<ul class="all_cats">
+			<li><a href="gato_7.png" target="_blank"><img class="gato1" src="gato_7.png"></a></li>
+			<li><a href="gato_8.png" target="_blank"><img class="gato2" src="gato_8.png"></a></li>
+			<li><a href="gato_9.png" target="_blank"><img class="gato3" src="gato_9.png"></a></li>
+		</ul>
+	</div>
+</body>
+</html>
